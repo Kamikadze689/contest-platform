@@ -10,9 +10,9 @@
 - Node.js & NPM
 
 ## Установка
-
-1. Клонировать репозиторий
 ```bash
+1. Клонировать репозиторий
+
 git clone https://github.com/Kamikadze689/contest-platform.git
 cd contest-platform
 Установить зависимости
@@ -39,8 +39,8 @@ DB_PASSWORD=
 5. Настройка S3 хранилища (в файле .env)
 text
 FILESYSTEM_DISK=s3
-AWS_ACCESS_KEY_ID=L9IOBCEF0DVY5VPQNBOH
-AWS_SECRET_ACCESS_KEY=B8M304AkKBaxDFVEIdU1xo0KYDRsd6VCaB0hjToZ
+AWS_ACCESS_KEY_ID=your_key
+AWS_SECRET_ACCESS_KEY=your_key
 AWS_DEFAULT_REGION=ru-1
 AWS_BUCKET=108441407d0b-college
 AWS_ENDPOINT=https://s3.ru1.storage.beget.cloud
